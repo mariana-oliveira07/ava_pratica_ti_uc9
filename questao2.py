@@ -24,3 +24,17 @@ Os números digitados devem ser armazenados em uma lista e depois de encerrar, m
 
 '''
 
+resultados = []
+
+a = int(input(f"a- Digite um número: "))
+b = int(input(f"b- Digite um número:"))
+
+def calculadora(a, b, operacao):
+    if operacao == "+":
+        return a + b
+    elif operacao == "-":
+        return a - b
+    elif operacao == "*":
+        return a * b
+    elif operacao == "/":
+        return a / b
